@@ -10,4 +10,4 @@ The DPM algorithm reduces this problem from 3D moments of an LxMXM array, to 1D 
 ### Results
 
 
-![Timings](https://github.com/wild-ig/dpm_moments/raw/main/comparison.png)
+![Timings](https://github.com/wild-ig/dpm3d/raw/main/comparison.png)
