@@ -9,16 +9,5 @@ The DPM algorithm reduces this problem from 3D moments of an LxMXM array, to 1D 
 
 ### Results
 
-| Algorithm<br>Image Size |  Naïve<br>uSec |   OCV<br>uSec | OCV-AVX2<br>uSec |  DRT<br>uSec | DRT-AVX2<br>uSec |
-|:-----------------------:|-------:|------:|---------:|-----:|---------:|
-|        4032x3024        | 472386 | 17373 |     8700 | 5600 |     3330 |
-|        3000x3000        | 348870 | 12840 |     6400 | 4000 |     2390 |
-|        2000x2000        | 153940 |  5540 |     2800 | 1500 |      856 |
-|        1500x1500        |  85810 |  3100 |     1600 |  870 |      485 |
-|        1000x1000        |  37320 |  1374 |      710 |  390 |      223 |
-|         750x750         |  21123 |   775 |      410 |  220 |      127 |
-|         400x400         |   5932 |   222 |      110 |   69 |       38 |
-|         200x200         |   1459 |    56 |       29 |   19 |       12 |
-<br>
 
-![Timings](https://github.com/wild-ig/dpm_moments/raw/master/comparison.png)
+![Timings](https://github.com/wild-ig/dpm_moments/raw/main/comparison.png)
